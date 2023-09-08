@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="result">
+      <h1 class="result__title">Your Result</h1>
+      <p class="score">
+        <b class="score--bold">76</b>
+        of 100
+      </p>
+      <div class="description">
+        <p class="description__title">Great</p>
+        <p class="description__text">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+    </div>
+    <div class="summary">
+      <h2 class="summary__title">Summary</h2>
+      <div class="cards">
+        <div class="card card--reaction">
+          <img class="card__icon" src="./assets/images/icon-reaction.svg" alt="reaction" />
+          <p class="card__title">Reaction</p>
+          <p class="card__score"><b class="card__score--bold">80</b>&nbsp/&nbsp100</p>
+        </div>
+        <div class="card card--memory">
+          <img class="card__icon" src="./assets/images/icon-memory.svg" alt="memory" />
+          <p class="card__title">Memory</p>
+          <p class="card__score"><b class="card__score--bold">92</b>&nbsp/&nbsp100</p>
+        </div>
+        <div class="card card--verbal">
+          <img class="card__icon" src="./assets/images/icon-verbal.svg" alt="verbal" />
+          <p class="card__title">Verbal</p>
+          <p class="card__score"><b class="card__score--bold">61</b>&nbsp/&nbsp100</p>
+        </div>
+        <div class="card card--visual">
+          <img class="card__icon" src="./assets/images/icon-visual.svg" alt="visual" />
+          <p class="card__title">Visual</p>
+          <p class="card__score"><b class="card__score--bold">72</b>&nbsp/&nbsp100</p>
+        </div>
+      </div>
+      <button class="summary__continue">Continue</button>
+    </div>
+  </div>
+</body>
+
+</html>
